@@ -6,11 +6,14 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-@font-face {
-    font-family:et-line ;
-    src: url(GoMikeDesignsProject\fonts\et-line.ttf);
-}
 
+.contact--hero_text-box{
+    position: absolute;
+    top: 0;
+}
+.contact--hero_text{
+    color: white;
+}
 .form-group{
     margin-bottom: 10px;
     display: flex;
@@ -675,7 +678,11 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
+.web-icon{
+    width: 100px;
+    height: auto;
+    fill: #364577;
+}
 .container {
     max-width: 1000px;
 }
@@ -802,7 +809,7 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
+.tc-blue {
     color: #364577!important;
 }
 
@@ -918,6 +925,9 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .form-group{
+        width: 100%;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
