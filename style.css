@@ -340,8 +340,6 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
-    float: right;
     z-index: 1;
 }
 
@@ -350,7 +348,7 @@ a:hover {
     margin-top: 4px;
     font-size: 16px;
     list-style-type: none;
-
+    padding-right: 10px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -391,7 +389,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 75px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -491,6 +489,7 @@ button {
 
 .btn-rd {
     border-radius: 40px;
+    border: none;
 }
 
 .btn-clean {
@@ -664,7 +663,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -677,7 +676,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
-}
+} */
 .web-icon{
     width: 100px;
     height: auto;
@@ -950,6 +949,8 @@ h4 {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
+        padding-left: 0;
+        width: 100%;
     }
     .navbar.row {
         margin-left: 0;
@@ -1018,7 +1019,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 100px 0;
     }
     .bloc-sm,
     .bloc-md {
