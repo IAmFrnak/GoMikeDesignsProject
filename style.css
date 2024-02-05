@@ -695,6 +695,11 @@ a {
 .hero-bloc-text-sub {
     font-size: 36px;
 }
+.atl-web-design{
+    color: #FFF;
+    font-family: "helvetica";
+    font-weight: 400;
+}
 
 .statement-bloc-text {
     line-height: 26px;
