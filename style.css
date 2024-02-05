@@ -765,6 +765,7 @@ h3 {
 
 .white {
     color: #FFFFFF!important;
+    font-family: "helvetica";
 }
 
 .portfolio-thumb {
@@ -786,8 +787,9 @@ h3 {
 }
 
 .bold-link {
-    font-weight: 900;
+    font-weight: 700;
     text-decoration: underline!important;
+    font-family: "helvetica";
 }
 
 .service-header {
