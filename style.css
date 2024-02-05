@@ -216,10 +216,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -307,7 +303,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .navbar {
@@ -678,9 +674,14 @@ a {
     color: #575757!important;
 } */
 .web-icon{
-    width: 100px;
+    width: 60px;
     height: auto;
     fill: #364577;
+}
+.blurb-bloc-2{
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #364577;
 }
 .container {
     max-width: 1000px;
@@ -688,6 +689,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    color: white;
 }
 
 .hero-bloc-text-sub {
@@ -750,13 +752,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
-}
 
 .icons {
     margin-bottom: 14px;
@@ -925,7 +920,7 @@ h4 {
 
 @media (max-width: 767px) {
     .form-group{
-        width: 100%;
+        width: 75%;
     }
     .page-container {
         overflow-x: hidden;
