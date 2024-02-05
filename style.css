@@ -7,10 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.contact--hero_text-box{
-    position: absolute;
-    top: 0;
-}
+
 .contact--hero_text{
     color: white;
 }
@@ -19,7 +16,20 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    width: 35%;
+    width: 100%;
+}
+.form-group-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.btn-size{
+    width: 165px;
+}
+.contact-column{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .sr-only{
@@ -235,23 +245,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn,
-.l-bloc .a-btn,
-.l-bloc .navbar a,
-.l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
-.l-bloc a .icon-md,
-.l-bloc a .icon-lg,
-.l-bloc a .icon-xl,
-.l-bloc h1 a,
-.l-bloc h2 a,
-.l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
-.l-bloc p a {
-    color: rgba(0, 0, 0, .6);
-}
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
@@ -712,7 +705,6 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
     margin: auto auto auto auto;
 }
 
